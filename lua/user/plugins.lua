@@ -68,6 +68,11 @@ return packer.startup(function(use)
     use "neovim/nvim-lspconfig"
     use "williamboman/nvim-lsp-installer"
 
+    -- Community plugins
+    use "kyazdani42/nvim-web-devicons"
+    use "goolord/alpha-nvim"
+    use "antoinemadec/FixCursorHold.nvim"
+
     -- Colorschemes
     use "lunarvim/onedarker"
 
