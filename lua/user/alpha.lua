@@ -8,7 +8,6 @@ local dashboard = require "alpha.themes.dashboard"
 
 dashboard.section.header.val =  {
     "                                                                    ",
-    "                                                                    ",
     "            :h-                                  Nhy`               ",
     "           -mh.                           h.    `Ndho               ",
     "           hmh+                          oNm.   oNdhh               ",
@@ -47,6 +46,7 @@ dashboard.section.header.val =  {
 
 dashboard.section.buttons.val = {
     dashboard.button("e", " " .. " New file", ":ene <BAR> startinsert <CR>"),
+    dashboard.button("r", " " .. " Recent files", ":Telescope oldfiles <CR>"),
     dashboard.button("q", " " .. " Quit", ":qa<CR>"),
 }
 
