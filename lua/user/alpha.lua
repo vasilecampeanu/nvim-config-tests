@@ -7,7 +7,6 @@ end
 local dashboard = require "alpha.themes.dashboard"
 
 dashboard.section.header.val =  {
-    "                                                                    ",
     "            :h-                                  Nhy`               ",
     "           -mh.                           h.    `Ndho               ",
     "           hmh+                          oNm.   oNdhh               ",
@@ -42,7 +41,7 @@ dashboard.section.header.val =  {
     "                        .-:mNdhh:.......--::::-`                    ",
     "                           yNh/..------..`                          ",
     "                                                                    ",
-  } 
+} 
 
 dashboard.section.buttons.val = {
     dashboard.button("e", " " .. " New file", ":ene <BAR> startinsert <CR>"),
@@ -57,6 +56,7 @@ end
 dashboard.section.footer.val = footer()
 
 dashboard.section.footer.opts.hl = "Type"
+
 dashboard.section.header.opts.hl = "Include"
 dashboard.section.buttons.opts.hl = "Keyword"
 
