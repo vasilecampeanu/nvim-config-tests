@@ -72,6 +72,8 @@ return packer.startup(function(use)
     use "kyazdani42/nvim-web-devicons"
     use "goolord/alpha-nvim"
     use "antoinemadec/FixCursorHold.nvim"
+    
+    use "nvim-lualine/lualine.nvim"
 
     -- Telescope
     use "nvim-telescope/telescope.nvim"

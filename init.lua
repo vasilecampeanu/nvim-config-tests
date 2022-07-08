@@ -7,6 +7,7 @@ require "user.lsp"
 require "user.alpha"
 require "user.gitsigns"
 require "user.telescope"
+require "user.lualine"
 
 -- Settings
 -- Set here most important Settings
