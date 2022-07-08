@@ -45,7 +45,7 @@ dashboard.section.header.val =  {
 
 dashboard.section.buttons.val = {
     dashboard.button("e", " " .. " New file", ":ene <BAR> startinsert <CR>"),
-    dashboard.button("r", " " .. " Recent files", ":Telescope oldfiles <CR>"),
+    dashboard.button("r", " " .. " Recent files", "<cmd>lua require'telescope.builtin'.oldfiles(require('telescope.themes').get_dropdown())<cr>"),
     dashboard.button("q", " " .. " Quit", ":qa<CR>"),
 }
 

@@ -73,6 +73,9 @@ return packer.startup(function(use)
     use "goolord/alpha-nvim"
     use "antoinemadec/FixCursorHold.nvim"
 
+    -- Telescope
+    use "nvim-telescope/telescope.nvim"
+
     -- Version control
     use "lewis6991/gitsigns.nvim"
 

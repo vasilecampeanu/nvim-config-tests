@@ -1,4 +1,4 @@
-# nvim-nyx-ide
+# `nvim-nyx-ide`
 Please, keep in mind that this configuration was created and tested on a MacBook Air M1 with `macOS` **Monterey 12.4**.
 
 # Installing neovim from source

@@ -6,6 +6,7 @@ require "user.cmp"
 require "user.lsp"
 require "user.alpha"
 require "user.gitsigns"
+require "user.telescope"
 
 -- Settings
 -- Set here most important Settings
